@@ -71,25 +71,40 @@
         background-color: var(--Lavender);
         color: var(--White);
         padding: 100px;
-        margin: 0px;
+        margin: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     header p{
         background-color: var(--Pink);
         color: var(--White);
-        margin: 0px;
+        justify-content: center;
+        width: 420px;
+        padding: 20px 0px 0px 0px;
+        margin: auto auto;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
     nav h2{
+        font-family: Inter;
         background-color: var(--Yellow);
         position: fixed;
-        right: 1%;
-        top: 1%;
-        padding: 5px;
+        right: 0;
+        top: 0;
+        margin: 0;
+        padding: 10px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     nav ul{
         visibility: hidden;
     }
-    main{
+    html{
         background-color: var(--Purple);
+    }
+    main h2{
+        color: var(--White);
+        text-align: left;
     }
     main .services{
         background-color: var(--White);
@@ -97,8 +112,18 @@
         padding: 20px;
         margin: 20px;
     }
+    main img{
+        float: left;
+    }
+    main p{
+        color: var(--Dark-gray);
+        text-align: left;
+        clear: both;
+    }
     section h4{
         color: var(--Purple);
+        text-align: left;
+        clear: both;
     }
     main h3{
         text-align: left;
@@ -111,7 +136,9 @@
         color: var(--White);
         text-align: left;
     }
-   
+    .why{
+        padding: 5px 5px;
+    }
     ul .one{
         background-color: var(--Teal);
         border-radius: 10px;
@@ -155,13 +182,72 @@
         border: 1px;
         padding: 10px;
         margin: 1px;
+        margin-left: auto;
+        margin-right: auto;
     }
     table, th{
         background-color: var(--Yellow);
         border: 1px;
         padding: 5px;
     }
+    .step{
+        background-color: var(--Pink);
+    }
+    .step h2{
+        color: var(--White);
+        text-align: center;
+        font-size: 1.75em;
+    }
+    .step p{
+        color: var(--White);
+        
+    }
+    .step a{
+        display: inline-block;
+        background-color: var(--White);
+        border-radius: 10px;
+        text-decoration: none;
+        color: var(--Dark-gray);
+        padding: 10px 100px;
+        margin: 20px;
+        box-shadow: 0 10px 10px 0 var(--Dark-gray);
+        font-weight: bold;
+    }
+    footer{
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 50px;
+        text-align: center;
+        font-family: Inter;
+        background-color: var(--Lavender);
+        color: var(--White);
+        
+    }
+    footer a{
+        color: var(--White);
+        padding: 15px;
+    }
+@media screen and (min-width:620px){
+    div{
+        position: relative;
+        display: flex;
+    }
+}
 
 
 
 
+@media screen and (min-width: 950px){
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1280px){
+
+
+
+}
