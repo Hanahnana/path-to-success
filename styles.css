@@ -1,3 +1,4 @@
+/* -------------------- CSS By Hannah Carroll -------------------------------------- */
 /* -------------------- IMPORTED FONTS -------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
@@ -227,6 +228,7 @@
         color: var(--White);
         padding: 15px;
     }
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:620px){
     div{
         position: relative;
@@ -236,18 +238,58 @@
 
 
 
-
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 950px){
-
+    .column{
+        float: left;
+        width: 25%;
+    }
+    .row:after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    .grid{
+        float: right;
+        width: 25%;
+    }
+    .header{
+        float: right;
+        width: 25%;
+    }
+    .main{
+        clear: both;
+    }
 
 }
 
 
 
 
-
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media screen and (min-width: 1280px){
-
+.column{
+    float: left;
+    width: 25%;
+}
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.grid{
+    float: right;
+    width: 25%;
+}
+.header{
+    float: right;
+    width: 25%;
+}
+.main{
+    clear: both;
+}
 
 
 }
+
+
