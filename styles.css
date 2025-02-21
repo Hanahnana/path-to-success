@@ -230,10 +230,13 @@
     }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width:620px){
-    div{
-        position: relative;
-        display: flex;
-    }
+   div{
+    position: relative;
+    display: flex;
+    width: 100%;
+   }
+
+
 }
 
 
@@ -288,8 +291,13 @@
 .main{
     clear: both;
 }
-
-
+.btn{
+    float: right;
+}
+.step{
+    text-align: left;
+    float: left;
+}
 }
 
 
